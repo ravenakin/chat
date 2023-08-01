@@ -3,7 +3,7 @@ document.getElementById('button').addEventListener('click', function() {
     fetch('https://api-inference.huggingface.co/models/Tap-M/Luna-AI-Llama2-Uncensored', {
         method: 'POST',
         headers: {
-            'Authorization': 'Bearer YOUR_HUGGING_FACE_API_TOKEN',
+            'Authorization': 'Bearer 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',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
